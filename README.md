@@ -1,6 +1,6 @@
 # operating-security-attack-surfaces
 Guide to understanding the attack surfaces of the general operating system. Primarily rooted in Linux; will reference other systems for comparison.
-# Thesis
+# Overview
 
 A lot of cybersecurity information is incredibly precise and difficult to consume. At least for me, it's hard to learn security without a tangible thing I'm trying to protect.
 
