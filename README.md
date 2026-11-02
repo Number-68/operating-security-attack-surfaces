@@ -30,8 +30,36 @@ Computer
 ├── Firmware
 ├── Runtime
 ```
+## Entry Structure
 
+Most entries in this repository follow a common template.
 
+The goal is not to document every possible detail, but to quickly answer the questions that help me understand an interface, how it fits into a system, how it might be attacked, and what can be done to defend it.
+
+```text
+- Title
+
+- What Is It?
+
+-Where Does It Sit?
+    - Hardware
+    - Firmware
+    - Kernel
+    - Userspace
+    - Network
+    - Physical World
+    - Cloud / External Systems
+
+- Why Does It Exist?
+
+- How Can It Be Attacked?
+
+- How Can It Be Defended?
+
+- Likelihood & Impact
+
+- Notes & Edge Cases
+```
 
 # Notes & Contributions
 
