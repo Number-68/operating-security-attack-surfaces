@@ -18,7 +18,7 @@ This repository is essentially my personal encyclopedia and learning map for ope
 
 It's not meant to be a definitive guide. It's meant to help me understand my own systems better. If it helps someone else do the same, that's a bonus.
 
-#Organization
+# Organization
 
 I plan to keep most of the information in short, easily accessible files that follow a taxonomy-like structure.
 
@@ -33,7 +33,7 @@ Computer
 
 
 
-## Notes & Contributions
+# Notes & Contributions
 
 This repository is not meant to be an exhaustive catalog of every vulnerability, exploit, or edge case.
 
