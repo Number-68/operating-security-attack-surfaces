@@ -166,3 +166,5 @@ Personal Device Setup
 
 Personal Network Setup
 - N/A
+
+Primarily a local thing unless I'm missing anything.
