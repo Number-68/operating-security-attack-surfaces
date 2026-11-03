@@ -26,9 +26,49 @@ I plan to keep most of the information in short, easily accessible files that fo
 README.md
 Image Map
 Computer
-├── Network
+├── Physical World
+│   ├── Physical Access
+│   ├── USB Devices
+│   └── Hardware Interfaces
+│
+├── Hardware
+│   ├── Ethernet NIC 
+│   ├── Wi‑Fi NIC
+│   ├── Bluetooth Adapter
+│   ├── Storage Devices
+│   ├── USB Controller (IN PROGRESS)
+│   ├── Webcam (IN PROGRESS)
+│   ├── Microphone (IN PROGRESS)
+│   ├── GPU (IN PROGRESS)
+│   └── TPM (IN PROGRESS)
+│
 ├── Firmware
-├── Runtime
+│   ├── BIOS (IN PROGRESS)
+│   ├── UEFI (IN PROGRESS)
+│   └── Device Firmware (IN PROGRESS)
+│
+├── Operating System
+│   ├── Users (IN PROGRESS)
+│   ├── Groups (IN PROGRESS)
+│   ├── Permissions (IN PROGRESS)
+│   ├── Services (IN PROGRESS)
+│   ├── Processes (IN PROGRESS)
+│   ├── Sandboxing (IN PROGRESS)
+│   ├── Authentication (IN PROGRESS)
+│   └── Authorization (IN PROGRESS)
+│
+├── Networking
+│   ├── TCP/IP (IN PROGRESS)
+│   ├── DNS (IN PROGRESS) 
+│   ├── DHCP (IN PROGRESS)
+│   ├── SSH (IN PROGRESS)
+│   └── Firewalls (IN PROGRESS)
+│
+└── Applications
+    ├── Browser (IN PROGRESS)
+    ├── Password Managers (IN PROGRESS)
+    ├── Containers (IN PROGRESS)
+    └── Installed Software (IN PROGRESS)
 ```
 ## Entry Structure
 
@@ -37,28 +77,39 @@ Most entries in this repository follow a common template.
 The goal is not to document every possible detail, but to quickly answer the questions that help me understand an interface, how it fits into a system, how it might be attacked, and what can be done to defend it.
 
 ```text
-- Title
+# Title
 
-- What Is It?
+## What Is It?
 
--Where Does It Sit?
-    - Hardware
-    - Firmware
-    - Kernel
-    - Userspace
-    - Network
-    - Physical World
-    - Cloud / External Systems
+## Where Does It Sit?
+- Physical World
+- Hardware
+- Firmware
+- Kernel
+- Userspace
+- Network
+- Cloud / External Systems
 
-- Why Does It Exist?
+## What Does It Interact With?
 
-- How Can It Be Attacked?
+## Why Does It Exist?
 
-- How Can It Be Defended?
+## Attack Surface
+How can an attacker interact with it?
 
-- Likelihood & Impact
+What does it expose?
 
-- Notes & Edge Cases
+What trust assumptions does it make?
+
+## Common Risks
+
+## Defensive Controls
+
+## Likelihood & Impact
+
+## Notes & Edge Cases
+
+# Personal Hardening Notes Summary
 ```
 
 # Notes & Contributions
