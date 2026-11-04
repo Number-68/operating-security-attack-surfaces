@@ -27,20 +27,21 @@ README.md
 Image Map
 Computer
 ├── Physical World
-│   ├── Physical Access
-│   ├── USB Devices
-│   └── Hardware Interfaces
+│   ├── Physical Access (IN PROGRESS)
+│   ├── USB Devices (IN PROGRESS)
+│   └── Hardware Interfaces (IN PROGRESS)
 │
 ├── Hardware
 │   ├── Ethernet NIC 
 │   ├── Wi‑Fi NIC
 │   ├── Bluetooth Adapter
 │   ├── Storage Devices
-│   ├── USB Controller (IN PROGRESS)
-│   ├── Webcam (IN PROGRESS)
-│   ├── Microphone (IN PROGRESS)
-│   ├── GPU (IN PROGRESS)
-│   └── TPM (IN PROGRESS)
+│   ├── USB Controller
+│   ├── Webcam
+│   ├── Microphone
+│   ├── GPU 
+│   ├── CPU
+│   └── TPM 
 │
 ├── Firmware
 │   ├── BIOS (IN PROGRESS)
