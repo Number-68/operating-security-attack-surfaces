@@ -27,8 +27,8 @@ README.md
 Image Map
 Computer
 ├── Physical World
-│   ├── Physical Access (IN PROGRESS)
-│   ├── USB Devices (IN PROGRESS)
+│   ├── Physical Access 
+│   ├── USB Devices
 │   └── Hardware Interfaces (IN PROGRESS)
 │
 ├── Hardware
@@ -44,32 +44,31 @@ Computer
 │   └── TPM 
 │
 ├── Firmware
-│   ├── BIOS (IN PROGRESS)
-│   ├── UEFI (IN PROGRESS)
-│   └── Device Firmware (IN PROGRESS)
+│   ├── BIOS-UEFI
+│   └── Device Firmware
 │
 ├── Operating System
-│   ├── Users (IN PROGRESS)
-│   ├── Groups (IN PROGRESS)
-│   ├── Permissions (IN PROGRESS)
-│   ├── Services (IN PROGRESS)
-│   ├── Processes (IN PROGRESS)
-│   ├── Sandboxing (IN PROGRESS)
-│   ├── Authentication (IN PROGRESS)
-│   └── Authorization (IN PROGRESS)
+│   ├── Users
+│   ├── Groups
+│   ├── Permissions
+│   ├── Services 
+│   ├── Processes 
+│   ├── Sandboxing
+│   ├── Authentication 
+│   └── Authorization 
 │
 ├── Networking
-│   ├── TCP/IP (IN PROGRESS)
-│   ├── DNS (IN PROGRESS) 
-│   ├── DHCP (IN PROGRESS)
-│   ├── SSH (IN PROGRESS)
-│   └── Firewalls (IN PROGRESS)
+│   ├── TCP/IP
+│   ├── DNS 
+│   ├── DHCP 
+│   ├── SSH
+│   └── Firewalls
 │
 └── Applications
-    ├── Browser (IN PROGRESS)
-    ├── Password Managers (IN PROGRESS)
-    ├── Containers (IN PROGRESS)
-    └── Installed Software (IN PROGRESS)
+    ├── Browser 
+    ├── Password Managers 
+    ├── Containers
+    └── Installed Software 
 ```
 ## Entry Structure
 
